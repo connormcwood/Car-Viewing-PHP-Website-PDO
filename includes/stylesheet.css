@@ -1,0 +1,347 @@
+body {
+	background-color:#d3d3d3;
+	padding:0px;
+	margin:0px;
+}
+#header {
+background-color:#434343;
+height:50px;
+padding:0px;
+width:100%;
+}
+.logo {
+float:left;
+}
+.subnav {
+width:100%;
+float:right;
+display:inline-block;
+height:50px;
+margin:0px;
+max-width:1200px;
+margin:0px auto;
+background: #5c874e;
+background: -moz-linear-gradient(top, #5c874e 0%, #527a46 48%);
+background: -webkit-linear-gradient(top, #5c874e 0%,#527a46 48%);
+background: linear-gradient(to bottom, #5c874e 0%,#527a46 48%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c874e', endColorstr='#527a46',GradientType=0 );
+}
+.subnav > li {
+float:left;
+list-style:none;
+height:50px;
+margin:0px;
+margin-top:16px;
+}
+.subnav > li > a {
+border-left:1px solid #5c874e;
+padding:15px 6px;
+font-size:13px;
+text-decoration:none;
+color:white;
+font-family: 'Open Sans', Sans-Serif;
+font-weight:lighter;
+}
+.subnav > li > a:hover {
+background-color:#5c874e;
+}
+.logo {
+margin-top:-16px;
+}
+.logo:hover {
+opacity:0.8;
+}
+.subnav img {
+height:90%;
+}
+.logo h2 {
+font-size:26px;
+}
+.contact h2 {
+color:#004600;
+font-size:26px;
+text-align:right;
+}
+.contact p {
+font-size:10px;
+text-align:right;
+}
+.smallcontainer {	
+width:50%;
+float:left;
+}
+.useredit {
+padding:5px;
+}
+.useredit input {
+float:right;
+}
+#updateUser {
+margin:10px;
+border:0px;
+padding:5px;
+border-bottom:1px solid green;
+}
+#updateUser:hover {
+margin:10px;
+border:0px;
+background-color:green;
+color:white;
+border-bottom:1px solid green;
+}
+.smallcontainer .header {
+width:100%;
+height:auto;
+padding:0px;
+margin:0px 1px;
+background-color:#3F3F3F;
+}
+.smallcontainer .header h2 {
+margin:5px 20px;
+font-size:22px;
+padding:0px;
+font-weight:normal;
+color:white;
+}
+.smallcontainer, .content {
+background-color:white;
+}
+.smallcontainer p {
+padding:10px;
+margin:0px;
+}
+#footer {
+clear:both;
+width:100%;
+background: #5c874e;
+background: -moz-linear-gradient(top, #5c874e 0%, #527a46 48%);
+background: -webkit-linear-gradient(top, #5c874e 0%,#527a46 48%);
+background: linear-gradient(to bottom, #5c874e 0%,#527a46 48%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c874e', endColorstr='#527a46',GradientType=0 );
+height:30px;
+
+}
+#footer p {
+text-align:right;
+font-size:12px;
+margin-right:5%;
+}
+#content {
+display:block;
+max-width:1200px;
+margin:10px auto;
+margin-bottom:50px;
+background-color:#e5e5e5;	
+border: 1px solid #d3d3d3;
+font-family: 'Open Sans', Sans-Serif;
+}
+#content form {
+padding:5px;
+}
+#vehicleFilter input, select {
+border:0px;
+border-bottom:1px solid green;
+}
+.registration {
+	
+}
+.registration p {
+padding:0px;
+margin:0px;
+}
+.registration input {
+width:95%;
+padding:10px;
+margin:0% 2.5%;
+}
+.registration button {
+float:right;
+margin:2.5%;
+}
+.nav {
+	float:left;
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.nav > li {
+	display:inline-block;
+	padding-top:8px;
+	font-family:"Raleway", Verdana, Arial, Helvetica, sans-serif;
+	float:left;
+	padding-left:1px;
+}
+.nav > li > a {
+	padding:12px;
+	text-decoration:none;
+	font-size:18px;
+	color:black;
+}
+.nav > li > a:hover {
+	padding:12px;
+	color:green;
+	border-bottom:2px solid green;
+}
+
+.failure {
+	border:1px solid red;
+}
+.inline {
+display:inline-block;
+}
+.textContainer {
+background-color:white;
+}
+#userdata {
+width:100%;
+}
+#userdata a {
+color:black;
+text-decoration:none;
+font-size:15px;
+}
+#userdata a:hover {
+color:black;
+text-decoration:underline;
+}
+#vehicleProfile img {
+width:50%;	
+float:right;	
+}
+#vehicleProfile .textContainer {
+float:left;		
+width:50%;
+}
+#vehicleProfile .textContainer h2 {
+color:green;
+font-style:italic;
+padding-left:20px;
+}
+#vehicleProfile .textContainer p {
+padding:0px; 
+}
+.header {
+float:left;
+margin-left:2%;
+text-transform: uppercase;
+font-weight:bold;
+}
+.data {
+float:right;
+margin-right:2%;
+}
+.invalid {
+border:1px solid red;
+border-radius:3px;
+}
+.success {
+	border:1px solid green;
+	padding:5px;
+	margin:5px 3px;
+	box-shadow:none;
+}
+.data input {
+margin:3px;
+border:0px;
+border-bottom:1px solid green;
+}
+.valid {
+border:1px solid green;
+border-radius:3px;
+}
+.error {
+border:1px solid red;
+padding:5px 0px;
+margin:5px;
+
+background-color:#ffe5e5;
+}
+.error p {
+padding-left:10px;
+font-size:16px;
+}
+#login label {
+border:0px;
+}
+#registration label {
+border:0px;
+}
+.success {
+border:1px solid green;
+padding:5px;
+background-color:white;
+}
+/* Vehicles Styling */
+.element {
+width:50%;
+background-color:green;
+float:left;
+height:400px;
+}
+.element img {
+width:100%;
+height:400px;
+position:relative;
+}
+.element h2 {
+position:relative;
+top:-380px;
+left:0;
+width:100%;
+}
+
+.element h2 span {
+color: white;
+font: bold 28px/40px Helvetica;
+letter-spacing: -1px;
+background: rgb(0, 0, 0); /* fallback color */
+background: rgba(0, 0, 0, 0.7);
+padding: 10px;
+}
+.element span a {
+color:white;	
+text-decoration:none;
+}
+.element span a:hover {
+text-decoration:underline;
+}
+.element h3 {
+position:relative;
+top:-375px;
+left:0;
+width:100%;
+}
+.element h3 span {
+color: white;
+font: bold 24px/45px Helvetica;
+letter-spacing: -1px;
+background: rgb(0, 0, 0); /* fallback color */
+background: rgba(0, 0, 0, 0.7);
+padding: 10px;
+}
+.element h4 {
+position:relative;
+top:-220px;
+left:0;
+width:100%;
+}
+.element h4 span {
+color: white;
+font: bold 24px/45px Helvetica;
+letter-spacing: -1px;
+background: rgb(0, 0, 0); /* fallback color */
+background: rgba(0, 0, 0, 0.7);
+padding: 10px;
+}
+.element h4:hover {
+opacity: 0.7;
+cursor:pointer;
+}
+@media screen and (max-width: 780px) {
+.element {
+width:100%;
+}
+.smallcontainer {
+width:100%;
+}
+}
